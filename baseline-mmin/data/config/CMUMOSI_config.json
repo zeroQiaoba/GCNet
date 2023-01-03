@@ -1,0 +1,6 @@
+{
+    "data_root": "/data6/lrc/MSP-IMPROV",
+    "target_root": "CMUMOSI_features_2021/target",
+    "total_cv": 1,
+    "feature_root": "CMUMOSI_features_2021"
+}

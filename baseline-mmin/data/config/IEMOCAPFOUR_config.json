@@ -1,0 +1,6 @@
+{
+    "data_root": "/data6/lrc/MSP-IMPROV",
+    "target_root": "IEMOCAPFOUR_features_2021/target",
+    "total_cv": 5,
+    "feature_root": "IEMOCAPFOUR_features_2021"
+}

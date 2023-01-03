@@ -1,0 +1,37 @@
+[ 13.01.2022 - 16:42:06 ]
+    (MSG) [2] in SMILExtract : openSMILE starting!
+[ 13.01.2022 - 16:42:06 ]
+    (MSG) [2] in SMILExtract : config file is: /share/home/lianzheng/tools/opensmile-2.3.0/config/gemaps/eGeMAPSv01a.conf
+[ 13.01.2022 - 16:42:06 ]
+    (MSG) [2] in cComponentManager : successfully registered 96 component types.
+[ 13.01.2022 - 16:42:06 ]
+    (MSG) [2] in instance 'gemapsv01a_logSpectral' : logSpecFloor = -140.00  (specFloor = 1.000000e-14)
+[ 13.01.2022 - 16:42:06 ]
+    (MSG) [2] in instance 'egemapsv01a_logSpectral_flux' : logSpecFloor = -140.00  (specFloor = 1.000000e-14)
+[ 13.01.2022 - 16:42:06 ]
+    (MSG) [2] in instance 'lldsink' : No filename given, disabling this sink component.
+[ 13.01.2022 - 16:42:06 ]
+    (MSG) [2] in instance 'lldhtksink' : No filename given, disabling this sink component.
+[ 13.01.2022 - 16:42:06 ]
+    (MSG) [2] in instance 'lldarffsink' : No filename given, disabling this sink component.
+[ 13.01.2022 - 16:42:06 ]
+    (MSG) [2] in instance 'arffsink' : No filename given, disabling this sink component.
+[ 13.01.2022 - 16:42:06 ]
+    (MSG) [2] in instance 'htksink' : No filename given, disabling this sink component.
+[ 13.01.2022 - 16:42:06 ]
+    (WARN) [1] in instance 'gemapsv01a_formantVoiced.reader' : Mismatch in input level buffer sizes (levelconf.nT). Level #0 has size 5 which is smaller than the max. input size of all input levels (150). This might cause the processing to hang unpredictably or cause incomplete processing.
+[ 13.01.2022 - 16:42:06 ]
+    (WARN) [1] in instance 'gemapsv01a_logSpectralVoiced.reader' : Mismatch in input level buffer sizes (levelconf.nT). Level #0 has size 5 which is smaller than the max. input size of all input levels (150). This might cause the processing to hang unpredictably or cause incomplete processing.
+[ 13.01.2022 - 16:42:06 ]
+    (WARN) [1] in instance 'gemapsv01a_logSpectralUnvoiced.reader' : Mismatch in input level buffer sizes (levelconf.nT). Level #0 has size 5 which is smaller than the max. input size of all input levels (150). This might cause the processing to hang unpredictably or cause incomplete processing.
+[ 13.01.2022 - 16:42:06 ]
+    (WARN) [1] in instance 'egemapsv01a_logSpectralVoiced.reader' : Mismatch in input level buffer sizes (levelconf.nT). Level #0 has size 5 which is smaller than the max. input size of all input levels (150). This might cause the processing to hang unpredictably or cause incomplete processing.
+[ 13.01.2022 - 16:42:06 ]
+    (WARN) [1] in instance 'egemapsv01a_logSpectralUnvoiced.reader' : Mismatch in input level buffer sizes (levelconf.nT). Level #0 has size 5 which is smaller than the max. input size of all input levels (150). This might cause the processing to hang unpredictably or cause incomplete processing.
+[ 13.01.2022 - 16:42:06 ]
+    (MSG) [2] in cComponentManager : successfully finished createInstances
+                                 (77 component instances were finalised, 1 data memories were finalised)
+[ 13.01.2022 - 16:42:06 ]
+    (MSG) [2] in cComponentManager : starting single thread processing loop
+[ 13.01.2022 - 16:42:06 ]
+    (MSG) [2] in cComponentManager : Processing finished! System ran for 603 ticks.
