@@ -25,8 +25,33 @@ Please cite our paper if you find our work useful for your research:
 
 ### Prerequisites
 - Python 3.8
-- Pytorch (=1.8.0) and torchvision(=0.9.0)
 - CUDA 10.2
+- pytorch ==1.8.0
+- torchvision == 0.9.0
+- torch_geometric == 2.0.1
+- fairseq == 0.10.1
+- transformers==4.5.1
+- pandas == 1.2.5
+
+
+
+### Pretrained model
+
+```shell
+## for lexical feature extraction
+https://huggingface.co/microsoft/deberta-large/tree/main  -> ../tools/transformers/deberta-large
+
+## for acoustic feature extraction
+https://dl.fbaipublicfiles.com/fairseq/wav2vec/wav2vec_large.pt  -> ../tools/wav2vec
+
+## for visual feature extraction
+https://drive.google.com/file/d/1wT2h5sz22SaEL4YTBwTIB3WoL4HUvg5B/view?usp=share_link ->  ../tools/manet
+
+## using ffmpeg for sub-video extraction
+https://ffmpeg.org/download.html#build-linux ->  ../tools/ffmpeg-4.4.1-i686-static
+```
+
+
 
 ### Datasets
 
