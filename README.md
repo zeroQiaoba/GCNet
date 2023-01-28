@@ -3,21 +3,21 @@
 Correspondence to: 
   - Zheng Lian (lianzheng2016@ia.ac.cn)
   - Licai Sun (sunlicai2019@ia.ac.cn)
-
-
+  - Lan Chen (chenlanjojo@gmail.com)
+  
 ## Paper
-[**GCNet: Graph Completion Network for Incomplete Multimodal Learning in Conversation**](https://arxiv.org/abs/2203.02177)<br>
+[**GCNet: Graph Completion Network for Incomplete Multimodal Learning in Conversation**](https://ieeexplore.ieee.org/abstract/document/10008078)<br>
 Zheng Lian, Lan Chen, Licai Sun, Bin Liu, Jianhua Tao<br>
-IEEE Transactions on pattern analysis and machine intelligence, 2022
+IEEE Transactions on pattern analysis and machine intelligence, 2023
 
 Please cite our paper if you find our work useful for your research:
 
 ```tex
-@article{lian2022gcnet,
+@article{lian2023gcnet,
   title={GCNet: Graph Completion Network for Incomplete Multimodal Learning in Conversation},
   author={Lian, Zheng and Chen, Lan and Sun, Licai and Liu, Bin and Tao, Jianhua},
   journal={IEEE Transactions on pattern analysis and machine intelligence},
-  year={2022},
+  year={2023},
   publisher={IEEE}
 }
 ```
