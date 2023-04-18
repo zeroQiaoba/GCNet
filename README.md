@@ -4,20 +4,20 @@ Correspondence to:
   - Zheng Lian (lianzheng2016@ia.ac.cn)
   - Licai Sun (sunlicai2019@ia.ac.cn)
   - Lan Chen (chenlanjojo@gmail.com)
-  
+
 ## Paper
-[**GCNet: Graph Completion Network for Incomplete Multimodal Learning in Conversation**](https://ieeexplore.ieee.org/abstract/document/10008078)<br>
+[**GCNet: Graph Completion Network for Incomplete Multimodal Learning in Conversation**](https://arxiv.org/abs/2203.02177)<br>
 Zheng Lian, Lan Chen, Licai Sun, Bin Liu, Jianhua Tao<br>
-IEEE Transactions on pattern analysis and machine intelligence, 2023
+IEEE Transactions on pattern analysis and machine intelligence, 2022
 
 Please cite our paper if you find our work useful for your research:
 
 ```tex
-@article{lian2023gcnet,
+@article{lian2022gcnet,
   title={GCNet: Graph Completion Network for Incomplete Multimodal Learning in Conversation},
   author={Lian, Zheng and Chen, Lan and Sun, Licai and Liu, Bin and Tao, Jianhua},
   journal={IEEE Transactions on pattern analysis and machine intelligence},
-  year={2023},
+  year={2022},
   publisher={IEEE}
 }
 ```
@@ -44,6 +44,9 @@ https://huggingface.co/microsoft/deberta-large/tree/main  -> ../tools/transforme
 
 ## for acoustic feature extraction
 https://dl.fbaipublicfiles.com/fairseq/wav2vec/wav2vec_large.pt  -> ../tools/wav2vec
+
+## for face extractor (OpenFace-win)
+https://drive.google.com/file/d/1-O8epcTDYCrRUU_mtXgjrS3OWA4HTp0-/view?usp=share_link  -> ./OpenFace_2.2.0_win_x64
 
 ## for visual feature extraction
 https://drive.google.com/file/d/1wT2h5sz22SaEL4YTBwTIB3WoL4HUvg5B/view?usp=share_link ->  ../tools/manet
@@ -80,7 +83,15 @@ python extract_wav2vec_embedding.py --dataset='IEMOCAPFour' --feature_level='UTT
 python preprocess.py generate_transcription_files_IEMOCAP
 cd feature_extraction/text
 python extract_text_embedding_LZ.py --dataset='IEMOCAPFour' --feature_level='UTTERANCE' --model_name='deberta-large' --gpu=0
+
+###################################################################
+# We also provide pre-extracted multimodal features
+IEMOCAP: https://drive.google.com/file/d/1Hn82-ZD0CNqXQtImd982YHHi-3gIX2G3/view?usp=share_link  -> ./dataset/IEMOCAP/features
+CMUMOSI: https://drive.google.com/file/d/1aJxArYfZsA-uLC0sOwIkjl_0ZWxiyPxj/view?usp=share_link  -> ./dataset/CMUMOSI/features
+CMUMOSEI:https://drive.google.com/file/d/1L6oDbtpFW2C4MwL5TQsEflY1WHjtv7L5/view?usp=share_link  -> ./dataset/CMUMOSEI/features
 ~~~~
+
+
 
 
 
