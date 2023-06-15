@@ -34,6 +34,7 @@ Please cite our paper if you find our work useful for your research:
 - transformers==4.5.1
 - pandas == 1.2.5
 
+(see requirements.txt for more details)
 
 
 ### Pretrained model
@@ -142,6 +143,7 @@ python -u train_miss.py --mask_rate=0.2 --dataset_mode=iemocapsix_miss  --n_bloc
 ### Run CPM-Net Baseline
 
 ```shell
+## differently, CPM-Net runs in another environment, see requirements-cpmnet.txt for more details.
 cd baseline-cpmnet
 
 ## change feature format
